@@ -10,7 +10,6 @@ following the methodology of Caruana and Niculescu-Mizil (2006).
 
 ## Datasets (UCI)
 - Adult Income
-- Bank Marketing
 - Breast Cancer Wisconsin (Diagnostic)
 - Heart Disease (Cleveland)
 
