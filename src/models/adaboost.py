@@ -13,7 +13,7 @@ def get_model_and_params(X=None):
         ("preprocess", preprocessor),
         ("clf", AdaBoostClassifier(
             estimator=base_estimator,
-            algorithm="SAMME.R",
+            algorithm="SAMME",
             random_state=0
         ))
     ])

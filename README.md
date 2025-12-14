@@ -5,8 +5,6 @@ following the methodology of Caruana and Niculescu-Mizil (2006).
 
 ## Classifiers
 - Logistic Regression
-- k-Nearest Neighbors (kNN)
-- Support Vector Machine (RBF kernel)
 - Random Forest
 - AdaBoost
 
@@ -15,7 +13,6 @@ following the methodology of Caruana and Niculescu-Mizil (2006).
 - Bank Marketing
 - Breast Cancer Wisconsin (Diagnostic)
 - Heart Disease (Cleveland)
-- Wine Quality (Binary)
 
 ## Experimental Design
 - Binary classification tasks

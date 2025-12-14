@@ -8,15 +8,11 @@ from sklearn.metrics import accuracy_score
 
 # Dataset loaders
 from src.datasets.adult import load_data as load_adult
-from src.datasets.bank import load_data as load_bank
 from src.datasets.breast_cancer import load_data as load_breast_cancer
 from src.datasets.heart import load_data as load_heart
-from src.datasets.wine import load_data as load_wine
 
 # Models
 from src.models.logistic import get_model_and_params as logistic_model
-from src.models.knn import get_model_and_params as knn_model
-from src.models.svm import get_model_and_params as svm_model
 from src.models.random_forest import get_model_and_params as rf_model
 from src.models.adaboost import get_model_and_params as adaboost_model
 
@@ -40,10 +36,8 @@ RESULTS_FILE = os.path.join(RESULTS_DIR, "results.csv")
 
 DATASETS = {
     "Adult": load_adult,
-    "Bank": load_bank,
     "BreastCancer": load_breast_cancer,
     "HeartDisease": load_heart,
-    "WineQuality": load_wine,
 }
 
 
@@ -53,8 +47,6 @@ DATASETS = {
 
 MODELS = {
     "LogisticRegression": logistic_model,
-    "kNN": knn_model,
-    "SVM_RBF": svm_model,
     "RandomForest": rf_model,
     "AdaBoost": adaboost_model,
 }
